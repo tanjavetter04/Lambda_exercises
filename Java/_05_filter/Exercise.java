@@ -1,6 +1,7 @@
 package _05_filter;
 
 // Gib mithilfe einer Lambda Funktion in Europa gemessene Temperaturen aus
+// (in Java wird mit string1.equals("Europe") verglichen, nicht mit ==)
 
 import java.util.List;
 import java.util.Map;
