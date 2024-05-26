@@ -21,10 +21,5 @@ public class Exercise {
             Map.entry("Europe", 28)
         );
 
-        List<Map.Entry<String, Integer>> europe_temperatures = temperatures_continents.stream()
-                .filter(entry -> entry.getKey().equals("Europe"))
-                .collect(Collectors.toList());
-
-        System.out.println(europe_temperatures);
     }
 }
