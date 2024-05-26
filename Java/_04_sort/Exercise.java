@@ -16,8 +16,5 @@ public class Exercise {
         temperatures_cities.add(Map.entry("Chicago", 5));
         temperatures_cities.add(Map.entry("Houston", 25));
 
-        Collections.sort(temperatures_cities, (entry1, entry2) -> entry1.getKey().compareTo(entry2.getKey()));
-
-        System.out.println(temperatures_cities);
     }
 }
