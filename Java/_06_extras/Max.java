@@ -8,12 +8,5 @@ public class Max {
     public static void main(String[] args) {
         List<Integer> temperatures_celsius = List.of(25, 30, 22, 18, 28, 35, 20);
 
-        int max = temperatures_celsius.stream()
-                    .reduce(0, (x, y) -> {
-                        if (x > y) return x;
-                        return y;
-                    });
-
-        System.out.println(max);
     }
 }
